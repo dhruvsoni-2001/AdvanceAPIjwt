@@ -71,3 +71,4 @@ D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\refint\Adv
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.pdb
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.genruntimeconfig.cache
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\ref\AdvanceAPIjwt.dll
+D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -5,6 +5,7 @@ namespace AdvanceAPIjwt.Services
     public interface IAuthService
     {
         Task<bool> Register(RegisterUser user);
+        string GenerateTokenString(LoginUser user);
         Task<bool> Login(LoginUser user);
     }
 }
