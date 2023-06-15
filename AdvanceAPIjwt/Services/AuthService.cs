@@ -26,5 +26,16 @@ namespace AdvanceAPIjwt.Services
             var result = await _userManager.CreateAsync(applicationUser, user.Password);
             return result.Succeeded;
         }
+
+        public async Task<bool> Login(LoginUser user)
+        {
+            var applicationUser = await _userManager.FindByEmailAsync(user.Email);
+            if (applicationUser is null)
+            {
+                return false;
+            }
+
+            return await _userManager.CheckPasswordAsync(applicationUser, user.Password);
+        }
     }
 }

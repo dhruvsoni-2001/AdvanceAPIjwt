@@ -16,17 +16,30 @@ namespace AdvanceAPIjwt.Controllers
             _authService = authService;
         }
 
-        [HttpPost]
-        public async Task<bool> Register(RegisterUser user)
+        [HttpPost("Register")]
+        public async Task<IActionResult> Register(RegisterUser user)
         {
-            return await _authService.Register(user);
+            if (await _authService.Register(user))
+            {
+                return Ok("Successfuly done");
+            }
+            return BadRequest("Something went worng");
         }
 
 
-        //[HttpPost]
-        //public async Task<bool> Login(LoginUser user)
-        //{
-        //    return await _authService.Login(user);
-        //}
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login(LoginUser user)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            if (await _authService.Login(user))
+            {
+                var tokenString = _authService.GenerateTokenString(user);
+                return Ok(tokenString);
+            }
+            return BadRequest();
+        }
     }
 }
