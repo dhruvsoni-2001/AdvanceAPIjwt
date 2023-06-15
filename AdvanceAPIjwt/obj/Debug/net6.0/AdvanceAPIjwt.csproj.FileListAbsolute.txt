@@ -1,3 +1,10 @@
+D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.csproj.AssemblyReference.cache
+D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.AssemblyInfoInputs.cache
+D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.AssemblyInfo.cs
+D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.csproj.CoreCompileInputs.cache
+D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.MvcApplicationPartsAssemblyInfo.cs
+D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.MvcApplicationPartsAssemblyInfo.cache
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\appsettings.Development.json
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\appsettings.json
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\AdvanceAPIjwt.exe
@@ -6,6 +13,7 @@ D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\AdvanceAPI
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\AdvanceAPIjwt.dll
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\AdvanceAPIjwt.pdb
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\Humanizer.dll
+D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -50,13 +58,6 @@ D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\runtimes\w
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.csproj.AssemblyReference.cache
-D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.GeneratedMSBuildEditorConfig.editorconfig
-D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.AssemblyInfoInputs.cache
-D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.AssemblyInfo.cs
-D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.csproj.CoreCompileInputs.cache
-D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.MvcApplicationPartsAssemblyInfo.cs
-D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.MvcApplicationPartsAssemblyInfo.cache
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\staticwebassets\msbuild.AdvanceAPIjwt.Microsoft.AspNetCore.StaticWebAssets.props
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\staticwebassets\msbuild.build.AdvanceAPIjwt.props
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AdvanceAPIjwt.props
@@ -71,4 +72,3 @@ D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\refint\Adv
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.pdb
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\AdvanceAPIjwt.genruntimeconfig.cache
 D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\obj\Debug\net6.0\ref\AdvanceAPIjwt.dll
-D:\DotNet Projects\repos\AdvanceAPIjwt\AdvanceAPIjwt\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
