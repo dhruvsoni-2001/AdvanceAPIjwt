@@ -4,12 +4,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AdvanceAPIjwt.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions options):base(options) 
         { 
         }
-        public DbSet<RegisterUser> registerUsers { get; set; }
+        public DbSet<Employee> Employees { get; set; }
     }
    
 }
