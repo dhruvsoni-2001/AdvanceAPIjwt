@@ -1,6 +1,8 @@
 ﻿using AdvanceAPIjwt.Models;
 using AdvanceAPIjwt.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AdvanceAPIjwt.Controllers
@@ -39,6 +41,14 @@ namespace AdvanceAPIjwt.Controllers
                 return Ok(tokenString);
             }
             return BadRequest();
+        }
+
+        [HttpGet("Users")]
+        [Authorize(Roles = "Admin")] // Authorize with "Admin" role
+        public IActionResult Users()
+        {
+            var users = _authService.GetUsers();
+            return Ok(users);
         }
     }
 }

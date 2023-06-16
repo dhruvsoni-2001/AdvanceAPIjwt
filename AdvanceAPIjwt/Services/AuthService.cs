@@ -1,4 +1,5 @@
 ﻿using AdvanceAPIjwt.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -64,6 +65,13 @@ namespace AdvanceAPIjwt.Services
 
             string tokenString = new JwtSecurityTokenHandler().WriteToken(securityToken);
             return tokenString;
+        }
+
+
+        public List<ApplicationUser> GetUsers()
+        {
+            var users = _userManager.Users.ToList();
+            return users;
         }
     }
 }
